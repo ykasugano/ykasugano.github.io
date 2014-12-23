@@ -1,0 +1,68 @@
+
+
+/* ==== 基本設定 ==== */
+
+
+html{ overflow-y:scroll; }
+body{ color:#666; background-image:url("../../img/img_bg/html_bg.png"); background-attachment:fixed; font-size:11px; font-family:Arial, Helvetica,"メイリオ",Meiryo,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HiraKakuPro-W3","ＭＳ Ｐゴシック","MS PGothic",sans-serif; letter-spacing:0.8px;}
+a { color:#666; text-decoration:none; } a img { text-decoration:none; }
+li { list-style-type: none; } li img { vertical-align: bottom; }
+.clear{ clear:both; }
+
+
+
+/* ==== LAYOUT ==== */
+
+
+body{ border-top:3px double #9AB; font-size:12px; color:#666; background-image:url(../../img/img_bg/body_bg.png); }
+#container{ position:absolute; margin-left:-600px; left:50%; padding-top:40px; width:1200px;}
+#social{ position:absolute; right:0; top:40; padding:10px; width:267px; margin-top:0px; height:20px; border:1px solid #DDD; border-radius:3px; background-image:url(../../img/img_bg/social_bg.png); }
+#footer{ width:1200px; height:169px; background-image:url(../../img/img_main/footer.png); }
+#harumame{ position:absolute; margin-left:920px; margin-top:24px; }
+
+
+/* ==== CONTENT ==== */
+
+
+#content{ width:1000px; padding:40px 100px 40px 100px; background-image:url(../../img/img_bg/content_bg.png);}
+#content_index{ width:1000px; padding:0px 100px 40px 100px; background-image:url(../../img/img_bg/content_bg.png);}
+#content_main{ width:1000px; background-image:url(../../img/img_bg/content_main_bg.png); height:677px; }
+#content_box{ background-image:url(../../img/img_bg/content_box_bg.png); padding:40px; }
+#content_charactor_001{ width:1000px; height:450px; background-image:url(../../img/img_bg/content_charactor_001_bg.png); }
+#content_charactor_002{ width:1000px; height:450px; background-image:url(../../img/img_bg/content_charactor_002_bg.png); }
+#content_charactor_003{ width:1000px; height:450px; background-image:url(../../img/img_bg/content_charactor_003_bg.png); }
+#content_charactor_004{ width:1000px; height:450px; background-image:url(../../img/img_bg/content_charactor_004_bg.png); }
+#content_charactor_005{ width:1000px; height:450px; background-image:url(../../img/img_bg/content_charactor_005_bg.png); }
+#content_charactor_006{ width:1000px; height:450px; background-image:url(../../img/img_bg/content_charactor_006_bg.png); }
+#content_charactor_007{ width:1000px; height:450px; background-image:url(../../img/img_bg/content_charactor_007_bg.png); }
+#content_charactor_008{ width:1000px; height:450px; background-image:url(../../img/img_bg/content_charactor_008_bg.png); }
+#content_charactor_009{ width:1000px; height:450px; background-image:url(../../img/img_bg/content_charactor_009_bg.png); }
+#content_charactor_010{ width:1000px; height:450px; background-image:url(../../img/img_bg/content_charactor_010_bg.png); }
+#content_charactor_011{ width:1000px; height:450px; background-image:url(../../img/img_bg/content_charactor_011_bg.png); }
+#content_charactor_012{ width:1000px; height:450px; background-image:url(../../img/img_bg/content_charactor_012_bg.png); }
+#content_charactor_box{ width:595px; heiht:590px; padding-top:5px; margin-left:5px; }
+#content_charactor_image{ float:right; }
+#content_charactor_image_navigation{ float:left; padding-top:20px; }
+#content_charactor_navigation{ width:1000px; height:40px; padding-top:5px; background-image:url(../../img/img_bg/content_charactor_navigation_bg.png); }
+#content_charactor_navigation_box{ width:632px; margin-left:184px; }
+#content_charactor_navigation_box li{ float:left; }
+
+
+/* ==== SLIDE ==== */
+
+
+#slide{ position:relative; margin:0 auto;width:920px; margin-top:40px; height:100px; }
+.slide_box{ width:100%; height:100%; position:relative; }
+.slide_item{ position:relative; float:left; width:175px; height:98px; border-top:1px solid #AAA; border-bottom:1px solid #AAA;}
+.slide_nav span{ position:absolute; width:25px; height:104px; background:transparent url(../../img/img_slide/arrows.png) no-repeat top left; left:0; text-indent:-9000px; cursor:pointer; z-index:100; }
+.slide_nav span.slide_nav-next{ background-position:top right; left:auto; right:0; }
+
+
+/* ==== その他 ==== */
+
+
+.ul_001{ padding-top:0px; }
+.ul_002{ padding-top:14px; }
+.li_001{ float:left; margin-left:0px; }
+.li_002{ float:left; margin-left:14px; }
+
