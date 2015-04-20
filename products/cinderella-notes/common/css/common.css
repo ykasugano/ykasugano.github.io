@@ -17,6 +17,7 @@ li { list-style-type: none; } li img { vertical-align: bottom; }
 body{ border-top:3px double #9AB; font-size:12px; color:#666; background-image:url(../../img/img_bg/body_bg.png); }
 #container{ position:absolute; margin-left:-600px; left:50%; padding-top:40px; width:1200px;}
 #social{ position:absolute; right:0; top:40; padding:10px; width:267px; margin-top:0px; height:20px; border:1px solid #DDD; border-radius:3px; background-image:url(../../img/img_bg/social_bg.png); }
+#announce{ position:absolute; left:0; top:40; padding:10px; width:267px; margin-top:0px; height:20px; border:1px solid #DDD; border-radius:3px; background-image:url(../../img/img_bg/social_bg.png); }
 #footer{ width:1200px; height:169px; background-image:url(../../img/img_main/footer.png); }
 #harumame{ position:absolute; margin-left:920px; margin-top:24px; }
 
